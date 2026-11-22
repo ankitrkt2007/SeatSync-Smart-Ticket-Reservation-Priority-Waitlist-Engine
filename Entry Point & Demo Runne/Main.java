@@ -25,7 +25,7 @@ public class Main {
                     String name = scanner.nextLine().trim();
                     System.out.print("Age: ");
                     int age = Integer.parseInt(scanner.nextLine().trim());
-                    System.out.print("Priority (1=Emergency, 2=VIP/Tatkal, 3=General): ");
+                    System.out.print("Priority (1=Emergency, 2=Tatkal, 3=General): ");
                     int priority = Integer.parseInt(scanner.nextLine().trim());
                     Ticket ticket = engine.requestBooking(name, age, priority);
                     System.out.println("Result -> " + ticket);
