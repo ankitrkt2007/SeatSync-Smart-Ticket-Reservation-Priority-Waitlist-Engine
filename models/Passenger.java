@@ -3,7 +3,7 @@ package model;
 public class Passenger {
     private final String name;
     private final int age;
-    // 1 = Emergency/Medical, 2 = VIP/Tatkal, 3 = General
+    // 1 = Emergency/Medical, 2 = Tatkal, 3 = General
     private final int priority;
 
     public Passenger(String name, int age, int priority) {
@@ -27,7 +27,7 @@ public class Passenger {
     public String getPriorityLabel() {
         return switch (priority) {
             case 1 -> "P1-Emergency";
-            case 2 -> "P2-VIP/Tatkal";
+            case 2 -> "P2-Tatkal";
             default -> "P3-General";
         };
     }
