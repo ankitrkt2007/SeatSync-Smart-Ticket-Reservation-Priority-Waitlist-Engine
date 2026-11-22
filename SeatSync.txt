@@ -1,0 +1,15 @@
+SeatSync/
+└── src/
+    ├── model/
+    │   ├── Passenger.java
+    │   ├── Ticket.java
+    │   └── ActionRecord.java
+    ├── ds/
+    │   ├── BookingQueue.java
+    │   ├── WaitlistMinHeap.java
+    │   ├── PnrHashMap.java
+    │   ├── ActionStack.java
+    │   └── SeatBST.java
+    ├── service/
+    │   └── SeatSyncEngine.java
+    └── Main.java
